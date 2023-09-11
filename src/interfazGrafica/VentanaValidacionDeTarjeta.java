@@ -99,7 +99,7 @@ public class VentanaValidacionDeTarjeta extends JFrame {
 	//post: crea una ventana validacion de tarjeta
 	private void crearVentanaValidacionDeTarjeta() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				VentanaValidacionDeTarjeta.class.getResource("/imagen/mm.png")));
+				VentanaValidacionDeTarjeta.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -114,7 +114,7 @@ public class VentanaValidacionDeTarjeta extends JFrame {
 		JLabel label = new JLabel("");
 		label.setBounds(-105, -56, 888, 544);
 		label.setIcon(new ImageIcon(VentanaValidacionDeTarjeta.class
-				.getResource("/imagen/fnaticventana.jpg")));
+				.getResource("/imagen/Fondo_2.jpg")));
 		contentPane.add(label);
 
 	}

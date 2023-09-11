@@ -79,7 +79,7 @@ public class CajaDeAhorroEnPesos extends JFrame {
 	}
 	//post: crea la ventana de caja de ahorro en pesos
 	public void crearVentanaCajaDeAhorroEnPesos(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(CajaDeAhorroEnPesos.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(CajaDeAhorroEnPesos.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -259,7 +259,7 @@ public class CajaDeAhorroEnPesos extends JFrame {
 	//post: crea el fondo de la ventana 
 	public void establecerFondo(){
 		JLabel lblFondo = new JLabel("");
-		lblFondo.setIcon(new ImageIcon(CajaDeAhorroEnPesos.class.getResource("/imagen/fnaticventana.jpg")));
+		lblFondo.setIcon(new ImageIcon(CajaDeAhorroEnPesos.class.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-157, 0, 880, 462);
 		contentPane.add(lblFondo);
 	}

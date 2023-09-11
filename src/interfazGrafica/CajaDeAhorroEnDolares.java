@@ -66,7 +66,7 @@ public class CajaDeAhorroEnDolares extends JFrame {
 	}
 	//post: crea la ventana caja de ahorro en dolares
 	public void crearVentanaCajaDeAhorroEnDolares(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(CajaDeAhorroEnDolares.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(CajaDeAhorroEnDolares.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -161,7 +161,7 @@ public class CajaDeAhorroEnDolares extends JFrame {
 	//post: crea el fondo de la ventana
 	public void establecerFondo(){
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(CajaDeAhorroEnDolares.class.getResource("/imagen/fnaticventana.jpg")));
+		lblNewLabel.setIcon(new ImageIcon(CajaDeAhorroEnDolares.class.getResource("/imagen/fondo_2.jpg")));
 		lblNewLabel.setBounds(-158, 0, 780, 462);
 		contentPane.add(lblNewLabel);
 	}

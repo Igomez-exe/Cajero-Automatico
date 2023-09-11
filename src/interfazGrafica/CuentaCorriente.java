@@ -78,7 +78,7 @@ public class CuentaCorriente extends JFrame {
 	}
 	//post: crea la ventana de CuentaCorriente
 	public void crearVentanaCuentaCorriente(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(CuentaCorriente.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(CuentaCorriente.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -248,7 +248,7 @@ public class CuentaCorriente extends JFrame {
 	//post: crea el fondo de la ventana
 	public void establecerFondo(){
 		JLabel lblFondo = new JLabel("");
-		lblFondo.setIcon(new ImageIcon(CuentaCorriente.class.getResource("/imagen/fnaticventana.jpg")));
+		lblFondo.setIcon(new ImageIcon(CuentaCorriente.class.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-132, -38, 880, 500);
 		contentPane.add(lblFondo);
 	}

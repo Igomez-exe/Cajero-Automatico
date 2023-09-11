@@ -66,7 +66,7 @@ public class RanuraDeDeposito extends JFrame {
 	}
 	//post: crea la ventana
 	public void crearVentana(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(ComprarDolares.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(ComprarDolares.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -80,7 +80,7 @@ public class RanuraDeDeposito extends JFrame {
 		
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setBackground(Color.BLACK);
-		lblFondo.setIcon(new ImageIcon(ComprarDolares.class.getResource("/imagen/fnaticventana.jpg")));
+		lblFondo.setIcon(new ImageIcon(ComprarDolares.class.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-144, 0, 803, 462);
 		contentPane.add(lblFondo);	
 	}

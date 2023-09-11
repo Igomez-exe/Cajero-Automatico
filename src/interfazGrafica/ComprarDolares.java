@@ -70,7 +70,7 @@ public class ComprarDolares extends JFrame {
 
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setIcon(new ImageIcon(ComprarDolares.class
-				.getResource("/imagen/fnaticventana.jpg")));
+				.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-151, 0, 783, 500);
 		contentPane.add(lblFondo);
 	}
@@ -86,7 +86,7 @@ public class ComprarDolares extends JFrame {
 	//post: crea la ventana
 	public void crearVentana() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				ComprarDolares.class.getResource("/imagen/mm.png")));
+				ComprarDolares.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();

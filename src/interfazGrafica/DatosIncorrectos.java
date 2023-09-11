@@ -51,7 +51,7 @@ public class DatosIncorrectos extends JFrame {
 	}
 	//post: crea ventana Datos Incorrectos
 	public void crearVentanaDatosIncorrectos(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(DatosIncorrectos.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(DatosIncorrectos.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -96,7 +96,7 @@ public class DatosIncorrectos extends JFrame {
 	//post: crea el fondo de la ventana
 	public void establecerFondo(){
 		JLabel lblFondo = new JLabel("");
-		lblFondo.setIcon(new ImageIcon(DatosIncorrectos.class.getResource("/imagen/fnatic1.jpg")));
+		lblFondo.setIcon(new ImageIcon(DatosIncorrectos.class.getResource("/imagen/fondo_1.jpg")));
 		lblFondo.setBounds(-146, 11, 786, 561);
 		contentPane.add(lblFondo);
 	}

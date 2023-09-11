@@ -45,7 +45,7 @@ public class BloqueoDeTarjeta extends JFrame {
 	}
 	//post:crea la ventana bloque de tarjeta
 	public void crearVentanaBloqueoDeTarjeta(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(BloqueoDeTarjeta.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(BloqueoDeTarjeta.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -82,7 +82,7 @@ public class BloqueoDeTarjeta extends JFrame {
 	//post: crea el fondo de la ventana
 	public void establecerFondo(){
 		JLabel lblFondo = new JLabel("");
-		lblFondo.setIcon(new ImageIcon(BloqueoDeTarjeta.class.getResource("/imagen/fnatic1.jpg")));
+		lblFondo.setIcon(new ImageIcon(BloqueoDeTarjeta.class.getResource("/imagen/fondo_1.jpg")));
 		lblFondo.setBounds(-144, -61, 802, 523);
 		contentPane.add(lblFondo);
 	}

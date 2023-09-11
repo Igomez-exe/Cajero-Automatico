@@ -83,7 +83,7 @@ public class RetirarEfectivo extends JFrame {
 	//post: creea la ventana  RetirarEfectivo
 	public void crearVentanaRetirarEfectivo(){
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(RetirarEfectivo.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(RetirarEfectivo.class.getResource("/imagen/logo.png")));
 		setBackground(Color.BLACK);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 499);
@@ -154,7 +154,7 @@ public class RetirarEfectivo extends JFrame {
 	//post: crea el fondo de la ventana
 	public void crearFondo(){
 		JLabel lbl1000 = new JLabel("");
-		lbl1000.setIcon(new ImageIcon(RetirarEfectivo.class.getResource("/imagen/fnaticventana.jpg")));
+		lbl1000.setIcon(new ImageIcon(RetirarEfectivo.class.getResource("/imagen/fondo_2.jpg")));
 		lbl1000.setBackground(Color.BLACK);
 		lbl1000.setBounds(-150, 0, 844, 461);
 		contentPane.add(lbl1000);

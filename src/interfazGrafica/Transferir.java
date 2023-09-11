@@ -76,13 +76,13 @@ public class Transferir extends JFrame {
 	public void  crearFondo(){
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setBackground(Color.BLACK);
-		lblFondo.setIcon(new ImageIcon(Transferir.class.getResource("/imagen/fnaticventana.jpg")));
+		lblFondo.setIcon(new ImageIcon(Transferir.class.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-152, 0, 803, 462);
 		contentPane.add(lblFondo);	
 	}
 	//post crea una ventana
 	public void crearVentana(){
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Transferir.class.getResource("/imagen/mm.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Transferir.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();

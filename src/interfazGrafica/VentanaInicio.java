@@ -81,9 +81,9 @@ public class VentanaInicio extends JFrame {
 	//post: crea  ventana
 	private void crearVentanaInicio() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				VentanaInicio.class.getResource("/imagen/mm.png")));
+				VentanaInicio.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 610, 501);
+		setBounds(100, 100, 610, 410);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.BLACK);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -108,7 +108,7 @@ public class VentanaInicio extends JFrame {
 		lblFondo.setBounds(-18, -99, 643, 551);
 		lblFondo.setHorizontalAlignment(SwingConstants.CENTER);
 		lblFondo.setIcon(new ImageIcon(VentanaInicio.class
-				.getResource("/imagen/fnatic1.jpg")));
+				.getResource("/imagen/fondo_1.jpg")));
 		contentPane.add(lblFondo);
 	}
 	//post: crea el boton Continuar
@@ -135,7 +135,7 @@ public class VentanaInicio extends JFrame {
 			}
 		});
 		btnContinuar.setBackground(new Color(204, 153, 0));
-		btnContinuar.setBounds(242, 388, 117, 23);
+		btnContinuar.setBounds(242, 300, 117, 28);
 		contentPane.add(btnContinuar);
 	}
 

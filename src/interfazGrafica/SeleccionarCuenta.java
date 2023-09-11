@@ -90,7 +90,7 @@ public class SeleccionarCuenta extends JFrame {
 	public void crearVentanaSeleccionarCuenta(){
 		setBackground(Color.BLACK);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				SeleccionarCuenta.class.getResource("/imagen/mm.png")));
+				SeleccionarCuenta.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 500);
 		contentPane = new JPanel();
@@ -238,7 +238,7 @@ public class SeleccionarCuenta extends JFrame {
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setHorizontalAlignment(SwingConstants.LEFT);
 		lblFondo.setIcon(new ImageIcon(SeleccionarCuenta.class
-				.getResource("/imagen/fnaticventana.jpg")));
+				.getResource("/imagen/fondo_2.jpg")));
 		lblFondo.setBounds(-145, 0, 772, 478);
 		contentPane.add(lblFondo);
 	}
