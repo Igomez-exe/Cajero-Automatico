@@ -1,8 +1,6 @@
 package interfazGrafica;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
-import java.awt.Image;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -20,15 +18,12 @@ import java.awt.event.ActionEvent;
 import java.awt.Toolkit;
 import java.awt.Font;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.text.DecimalFormat;
 
 import javax.swing.SwingConstants;
 
 import CodigoFuente.Cliente;
 import Exceptions.ValorInvalido;
 
-import javax.swing.JTextField;
 
 public class CajaDeAhorroEnPesos extends JFrame {
 	 public Cliente clienteActual;

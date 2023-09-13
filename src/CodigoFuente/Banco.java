@@ -1,13 +1,10 @@
 package CodigoFuente;
 
-import interfazGrafica.RetirarEfectivo;
 import interfazGrafica.SeleccionarCuenta;
 
-import java.io.IOException;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 import javax.swing.JOptionPane;
 
@@ -85,7 +82,6 @@ public abstract class Banco {
 			 CuentaInexistente {
 		verificarMonto(montoATransferir);
 		pasarDatos();
-		boolean encontrado=false;
 
 		Iterator<Cliente> iterador = listaDeClientes.iterator();
 		
@@ -93,7 +89,6 @@ public abstract class Banco {
 			unCliente = iterador.next();
 			
 			if (unCliente.obtenerAlias().equals(alias)) {
-				encontrado=true;
 				if (unCliente.obtenerTarjeta().obtenerCuenta().obtenerTipo()
 						.equals("02")) {
 
@@ -164,7 +159,7 @@ public abstract class Banco {
 			}
 		}
 		if(!encontrado){
-			throw new CuentaInexistente("La cuenta ´" + alias + "´ no existe");
+			throw new CuentaInexistente("La cuenta ï¿½" + alias + "ï¿½ no existe");
 		}
 		
 	}

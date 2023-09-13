@@ -1,6 +1,5 @@
 package interfazGrafica;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -21,14 +20,9 @@ import java.awt.Font;
 
 import javax.swing.JButton;
 
-import CodigoFuente.Banco;
 import CodigoFuente.Cliente;
-import CodigoFuente.Cuenta;
-import CodigoFuente.Movimiento;
-import CodigoFuente.Tarjeta;
 import CodigoFuente.UltimosMovimientos;
 import Exceptions.ValorInvalido;
-import Lectores.LectorDeCuenta;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

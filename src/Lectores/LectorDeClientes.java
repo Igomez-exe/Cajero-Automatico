@@ -17,9 +17,7 @@ public class LectorDeClientes {
 	String aliasEnTxt="vacio";
 	
 	//post: lee un archivo de texto y guarda los valores en una lista
-	public void lectorDeClientes() throws FileNotFoundException, ValorInvalido{
-		boolean seEncontroAlias = false;
-		
+	public void lectorDeClientes() throws FileNotFoundException, ValorInvalido{	
 		try{
 			BufferedReader lector = new BufferedReader(new FileReader("clientes.txt"));
 			try{

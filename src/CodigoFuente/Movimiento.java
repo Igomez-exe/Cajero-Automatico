@@ -3,9 +3,7 @@ package CodigoFuente;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+
 
 public class Movimiento {
 	private Calendar fecha = new GregorianCalendar();

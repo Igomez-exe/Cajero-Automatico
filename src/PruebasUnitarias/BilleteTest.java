@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 import CodigoFuente.Billete;
 import org.junit.Test;
 
-import CodigoFuente.Billete;
 import Exceptions.ValorInvalido;
 
 public class BilleteTest {

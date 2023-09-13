@@ -1,10 +1,8 @@
 package interfazGrafica;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
-import java.awt.HeadlessException;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -14,18 +12,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
 import CodigoFuente.Cliente;
-import CodigoFuente.Tarjeta;
 import Exceptions.AccesoBloqueado;
 import Exceptions.ValorInvalido;
-import Lectores.LectorDeClientes;
-import Lectores.LectorDeTarjetas;
 
 import java.awt.Toolkit;
-import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;

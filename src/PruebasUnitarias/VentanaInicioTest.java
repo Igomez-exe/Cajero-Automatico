@@ -1,15 +1,11 @@
 package PruebasUnitarias;
 
-import static org.junit.Assert.*;
-
 import java.io.IOException;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import CodigoFuente.Cliente;
 import CodigoFuente.Cuenta;
-import CodigoFuente.Movimiento;
 import CodigoFuente.Tarjeta;
 import Exceptions.ValorInvalido;
 

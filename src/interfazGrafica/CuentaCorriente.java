@@ -1,6 +1,5 @@
 package interfazGrafica;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -19,14 +18,12 @@ import java.awt.event.ActionEvent;
 import java.awt.Font;
 import java.awt.Color;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 import javax.swing.SwingConstants;
 
 import CodigoFuente.Cliente;
 import Exceptions.ValorInvalido;
 
-import javax.swing.JTextField;
 
 public class CuentaCorriente extends JFrame {
 	public Cliente clienteActual;

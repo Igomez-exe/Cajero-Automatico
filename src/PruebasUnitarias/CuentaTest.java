@@ -1,6 +1,5 @@
 package PruebasUnitarias;
 
-import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -68,7 +67,7 @@ public class CuentaTest {
 	}
 	@Test
 	public void crearCuentaConStringAlfabeticoDe20Caracteres()throws ValorInvalido{
-		Cuenta unaCuenta = new CajaDeAhorroEnPesos("01","isla.pez.abcdqwe.lpñ",12000.03);
+		Cuenta unaCuenta = new CajaDeAhorroEnPesos("01","isla.pez.abcdqwe.lpï¿½",12000.03);
 	}
 	@Test
 	public void crearCuentaConStringAlfabeticoDe20CaracteresIguales()throws ValorInvalido{

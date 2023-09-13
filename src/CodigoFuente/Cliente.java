@@ -1,9 +1,5 @@
 package CodigoFuente;
 
-import java.util.LinkedList;
-import java.util.List;
-
-
 import Exceptions.ValorInvalido;
 
 public class Cliente extends Banco {

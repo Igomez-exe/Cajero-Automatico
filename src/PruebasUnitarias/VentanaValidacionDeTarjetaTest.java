@@ -1,11 +1,5 @@
 package PruebasUnitarias;
 
-import static org.junit.Assert.*;
-import interfazGrafica.VentanaInicio;
-import interfazGrafica.VentanaValidacionDeTarjeta;
-
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.io.FileNotFoundException;
 
 import org.junit.Test;
