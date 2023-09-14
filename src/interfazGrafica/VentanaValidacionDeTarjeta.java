@@ -1,7 +1,6 @@
 package interfazGrafica;
 
 import java.awt.Color;
-import java.awt.EventQueue;
 import java.awt.Font;
 
 import javax.swing.ImageIcon;
@@ -45,26 +44,6 @@ public class VentanaValidacionDeTarjeta extends JFrame {
 	public int contador;
 	public boolean teclearNumeros = false;
 
-
-	public static void main(String[] args) {
-
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					VentanaValidacionDeTarjeta frame = new VentanaValidacionDeTarjeta();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * @throws CantidadDeDigitosIncorrectosException
-	 * @throws FileNotFoundException
-	 * @throws ValorInvalido
-	 */
 	public VentanaValidacionDeTarjeta() throws FileNotFoundException,  
 	ValorInvalido{
 		

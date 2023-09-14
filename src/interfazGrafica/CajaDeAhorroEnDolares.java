@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -26,22 +24,10 @@ import java.awt.event.ActionEvent;
 import java.io.FileNotFoundException;
 
 public class CajaDeAhorroEnDolares extends JFrame {
+
 	public Cliente clienteActual;
 	private JPanel contentPane;
 
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					CajaDeAhorroEnDolares frame = new CajaDeAhorroEnDolares();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	public CajaDeAhorroEnDolares() {
 		

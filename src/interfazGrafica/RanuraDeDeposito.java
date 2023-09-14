@@ -1,7 +1,6 @@
 package interfazGrafica;
 
 import java.awt.Color;
-import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -39,19 +38,6 @@ public class RanuraDeDeposito extends JFrame {
 	//si es 0 abre la CC
 	//si es 1 abre la CAP
 	//si es 2 abre la CAUSD
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					RanuraDeDeposito frame = new RanuraDeDeposito();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
 
 	public RanuraDeDeposito() {
 		

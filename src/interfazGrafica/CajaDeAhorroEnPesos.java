@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -26,23 +24,8 @@ import Exceptions.ValorInvalido;
 
 
 public class CajaDeAhorroEnPesos extends JFrame {
-	 public Cliente clienteActual;
+	public Cliente clienteActual;
 	private JPanel contentPane;
-
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					CajaDeAhorroEnPesos frame = new CajaDeAhorroEnPesos();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
 
 	public CajaDeAhorroEnPesos() {
 		

@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -41,19 +39,6 @@ public class ComprarDolares extends JFrame {
 	private UltimosMovimientos operaciones = new UltimosMovimientos();
 	private double monto;
 	private int cuenta = 0;
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					ComprarDolares frame = new ComprarDolares();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	public ComprarDolares() {
 		pasarDatos();

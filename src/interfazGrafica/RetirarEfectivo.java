@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -36,22 +34,7 @@ public class RetirarEfectivo extends JFrame {
 	private int monto=0;
 	private UltimosMovimientos operaciones = new UltimosMovimientos();
 	private JTextField textCampoMonto;
-	
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					RetirarEfectivo frame = new RetirarEfectivo();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	
+		
 	public RetirarEfectivo() {
 		
 		pasarDatosDeSeleccionarCuentaARetirarEfectivoCC();

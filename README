@@ -1,0 +1,9 @@
+(Se subio src y bin, junto con las configuraciones de Eclipse puesto que dicho proyecto lo empecé en 
+dicho IDE).
+
+EL PROGRAMA SE EJECUTA DESDE EL MAIN ATM EN LA CARPETA CAJEROAUTOMATICO.
+SE ESTA MODULARIZANDO LA APP PARA QUE CONTENGA 3 CAPAS.
+
+- cosas q vi para mejorar :
+                            - el comprar dolares, deberia de abrirle una cuenta al cliente que no la tiene, es decir si se puede esto, el cliente deberia tener 2 cuentas para que pueda   funcionar, es decir, por ejemplo uan cuenta de ahorros en pesos y al querer comprar dolares, abrir la cuenta en dolares.
+                            El dinero si se descuenta cuando se compra 1 dolar.

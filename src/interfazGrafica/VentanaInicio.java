@@ -2,7 +2,6 @@ package interfazGrafica;
 
 import java.awt.Color;
 import java.awt.Cursor;
-import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -40,25 +39,6 @@ public class VentanaInicio extends JFrame {
 	private final Action action = new SwingAction();
 
 	
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					VentanaInicio frame = new VentanaInicio();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 * @throws CantidadDeDigitosIncorrectosException 
-	 * @throws FileNotFoundException 
-	 * @throws ValorInvalido 
-	 */
 	public VentanaInicio() throws FileNotFoundException, ValorInvalido {
 		crearListaClientes();
 		crearListaTarjetas();

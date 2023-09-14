@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -33,30 +31,12 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class SeleccionarCuenta extends JFrame {
+
 	public static List<Cliente> listaDeClientes = new LinkedList<Cliente>();
 	public static Cliente clienteActual;
 	private JPanel contentPane;
 	public static UltimosMovimientos operaciones = new UltimosMovimientos();
 	private int transacciones=0;
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					SeleccionarCuenta frame = new SeleccionarCuenta();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * @throws ValorInvalido
-	 * @throws CantidadDeDigitosIncorrectosException
-	 * @throws FileNotFoundException
-	 */
 	
 	public SeleccionarCuenta() throws FileNotFoundException,
 			 ValorInvalido {

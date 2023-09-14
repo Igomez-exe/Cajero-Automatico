@@ -1,7 +1,5 @@
 package interfazGrafica;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -15,25 +13,10 @@ import javax.swing.ImageIcon;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-
-
-
 public class DatosIncorrectos extends JFrame {
 
 	private JPanel contentPane;
 
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					DatosIncorrectos frame = new DatosIncorrectos();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 	public DatosIncorrectos() {
 		
 		crearVentanaDatosIncorrectos();
@@ -51,7 +34,7 @@ public class DatosIncorrectos extends JFrame {
 	public void crearVentanaDatosIncorrectos(){
 		setIconImage(Toolkit.getDefaultToolkit().getImage(DatosIncorrectos.class.getResource("/imagen/logo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 610, 500);
+		setBounds(100, 100, 610, 410);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.BLACK);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -95,7 +78,7 @@ public class DatosIncorrectos extends JFrame {
 	public void establecerFondo(){
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setIcon(new ImageIcon(DatosIncorrectos.class.getResource("/imagen/fondo_1.jpg")));
-		lblFondo.setBounds(-146, 11, 786, 561);
+		lblFondo.setBounds(-18, -99, 643, 551);
 		contentPane.add(lblFondo);
 	}
 }
