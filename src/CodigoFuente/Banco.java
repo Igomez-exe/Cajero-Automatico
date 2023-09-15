@@ -23,9 +23,7 @@ public abstract class Banco {
 	private double saldoAnteriorARealizarLaTransrefencia;
 	private double saldoAnteriorARecivirLaTransferencia;
 
-	public Banco() {
-
-	}
+	
 	//pre: montoATransferir debe ser mayor a 0.
 	//post: transfiere el monto desde la cuenta corriente a la cuanta con el alias asociado.
 	public void transferirMontoConCuentaCorriente(String alias,

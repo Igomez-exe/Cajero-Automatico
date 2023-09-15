@@ -83,6 +83,8 @@ public class SeleccionarCuenta extends JFrame {
 				System.out.println(operaciones.obtenerRegistro());
 				try {
 					operaciones.escribirTxt(clienteActual.obtenerCuit());
+					JOptionPane.showMessageDialog(null, 
+					"Se descargo correctamente su ticket");
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}

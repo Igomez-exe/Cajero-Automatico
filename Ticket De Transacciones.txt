@@ -1,0 +1,7 @@
+Año: 2023
+Mes: 9
+Dia: 14
+Cuenta: isla.pez.arbol
+Operacion: Transferencia
+Saldo Actual: 11000.03
+

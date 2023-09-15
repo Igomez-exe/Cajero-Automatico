@@ -87,7 +87,7 @@ public class CajaDeAhorroEnPesos extends JFrame {
 	//post: crea el boton eliminar transferencia
 	public void crearBotonEliminarTransferencia(){
 
-		JButton btnEliminarTransferencia = new JButton("Elimintar Transferencia");
+		JButton btnEliminarTransferencia = new JButton("Eliminar Transferencia");
 		btnEliminarTransferencia.addActionListener(new ActionListener() {
 			//post: cancela la ultima transferencia realizada
 			public void actionPerformed(ActionEvent e) {
